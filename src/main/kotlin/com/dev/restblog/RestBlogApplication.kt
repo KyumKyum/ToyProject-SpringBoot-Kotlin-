@@ -5,6 +5,9 @@ import org.springframework.boot.runApplication
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
+//* Toy Project to learn Spring-Boot Kotlin.
+//* Lazy Initialization is enabled; IOT disable this feature for certain bean, add annotation '@Lazy(false)'
+
 @RestController
 @SpringBootApplication
 class RestBlogApplication {
